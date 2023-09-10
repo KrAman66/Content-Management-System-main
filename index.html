@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management System</title>
+    <link rel="icon" href="cms.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to the Content Management System</h1>
+    </header>
+    <div class="data-container" id="dataSection" style="display: none;"></div>
+    <div class="container">
+        <div class="input-section">
+            <label for="title" class="label-section">Title:</label>
+            <input type="text" id="title" class="div-section" placeholder="Enter title">
+        </div>
+        <div class="input-section">
+            <label for="image" class="label-section">Image:</label>
+            <input type="file" id="image" accept="image/*">
+        </div>
+        <div class="input-section">
+            <label for="video" class="label-section">Video:</label>
+            <input type="file" id="video" accept="video/*">
+        </div>
+        <div class="input-section">
+            <label for="content" class="label-section">Content:</label>
+            <textarea id="content" class="div-section" placeholder="Write your content...."></textarea>
+        </div>
+        <div class="button-section">
+            <button id="submitBtn">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
